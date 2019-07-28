@@ -1,6 +1,6 @@
 import requests
 city=input("请输入城市名称：")
-key='dkq4nrn0wfjexgjw'
+key='you_key'#需要申请心动网络私钥
 url='https://api.seniverse.com/v3/weather/now.json?key='+key+'&location='+city+'&language=zh-Hans&unit=c'
 r = requests.get(url)
 message=r.json()
