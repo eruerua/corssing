@@ -15,4 +15,3 @@ code='''<div class="row row-center">
 </div>'''
 from bs4 import BeautifulSoup
 soup=BeautifulSoup(code,'html.parser')
-print(soup.find_all(class='col-sm-4'))
